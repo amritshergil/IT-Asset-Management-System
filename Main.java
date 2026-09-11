@@ -40,8 +40,8 @@ public class Main extends Application {
     // Simple in-memory credential store using email + hashed password 
     // !!!MADE FOR DEMONSTRATION USE ONLY!!!!!!!!
     private static final Map<String, String> CREDENTIAL_STORE = Map.of(
-            "donalddoughnut@gmail.com", hashPassword("user"),
-            "montee@gmail.com", hashPassword("admin")
+            "DEMOUSER", hashPassword("user"),
+            "DEMOADMIN", hashPassword("admin")
     );
     // !!!MADE FOR DEMONSTRATION USE ONLY!!!!!!!!
 
