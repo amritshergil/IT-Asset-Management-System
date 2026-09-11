@@ -1,0 +1,98 @@
+# IT Asset Management System
+
+A Java-based IT asset management application developed as part of my university studies.
+
+The application provides a graphical interface for managing hardware, software and employee records, while also incorporating system information collection and vulnerability information from the NIST National Vulnerability Database (NVD).
+
+## Overview
+
+The purpose of this project was to develop an application capable of helping an organisation maintain an inventory of its IT assets and associate software vulnerabilities with those assets.
+
+The application combines:
+
+- Java application development
+- JavaFX graphical user interface
+- MySQL database management
+- Hardware and software inventory
+- User authentication and access control
+- Windows system information collection
+- NIST NVD vulnerability lookup
+
+## Features
+
+### Asset Management
+
+The application allows users to manage information relating to:
+
+- Hardware
+- Software
+- Employees
+- Asset assignments
+- Software installed on devices
+
+Users can create, view, update and delete records through the graphical interface.
+
+### Hardware Management
+
+Hardware records can contain information such as:
+
+- Device name
+- Serial number
+- Manufacturer
+- Model
+- Operating system
+- Assigned employee
+
+### Software Management
+
+Software can be recorded against assets and managed through the application.
+
+The application can also retrieve vulnerability information relating to software through the NIST National Vulnerability Database API.
+
+### Vulnerability Information
+
+The system integrates with the **NIST National Vulnerability Database (NVD)** to retrieve information about known software vulnerabilities.
+
+This allows vulnerability information to be associated with software recorded within the asset-management system.
+
+The application can display information such as:
+
+- CVE identifiers
+- Vulnerability descriptions
+- Severity information
+- CVSS information
+- Published vulnerability information
+
+### System Information Collection
+
+The project also includes functionality for collecting information from a Windows system, including hardware and software information.
+
+This was intended to demonstrate how an asset-management system could automate parts of the asset discovery process rather than relying entirely on manual data entry.
+
+### User Authentication
+
+The application includes a login system with different levels of access.
+
+This demonstrates the use of authentication and access-control concepts within the application.
+
+## Technologies
+
+| Technology | Purpose |
+| Java | Application development |
+| JavaFX | Graphical user interface |
+| MySQL | Database management |
+| JDBC | Database connectivity |
+| NIST NVD API | Vulnerability information |
+| Windows system commands | Hardware/software information collection |
+
+## Architecture
+
+The application consists of several main components:
+
+IT Asset Management System
+JavaFX Interface              
+MySQL Database       
+NIST NVD
+Application Logic
+System Information
+Collection
