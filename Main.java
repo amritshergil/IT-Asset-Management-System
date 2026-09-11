@@ -37,11 +37,13 @@ public class Main extends Application {
     private String currentDepartment = "";
     private String currentUserEmail = "";
 
-    // Simple in-memory credential store using email + hashed password
+    // Simple in-memory credential store using email + hashed password 
+    // !!!MADE FOR DEMONSTRATION USE ONLY!!!!!!!!
     private static final Map<String, String> CREDENTIAL_STORE = Map.of(
             "donalddoughnut@gmail.com", hashPassword("user"),
             "montee@gmail.com", hashPassword("admin")
     );
+    // !!!MADE FOR DEMONSTRATION USE ONLY!!!!!!!!
 
     // SYSTEM INFO HELPERS
     private String runPowerShell(String command) {
@@ -213,7 +215,7 @@ public class Main extends Application {
     //vulnerability scan nist query
     private String queryNistVulnerabilities(String softwareName, String version) {
         try {
-            String apiKey = "6a511183-1ddf-4ab7-a81a-b0ef89cc432d";//api key
+            String apiKey = "...";//api key for NVD database access
 
             String url = "https://services.nvd.nist.gov/rest/json/cves/2.0?keywordSearch="
                     + softwareName.replace(" ", "%20")
