@@ -1,0 +1,42 @@
+# Java compiled files
+*.class
+*.jar
+
+# Java build directories
+bin/
+out/
+target/
+build/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# JavaFX / generated files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.properties
+config.properties
+
+# Database files / local data
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.temp
+*~
