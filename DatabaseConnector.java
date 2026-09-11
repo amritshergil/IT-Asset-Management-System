@@ -3,10 +3,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnector {
-   private static final String URL = "jdbc:mysql://localhost:3306/scottishglenn";
-   private static final String USER = "root";
-   private static final String PASSWORD = ""; 
-
+   private static final String URL = "DB_URL";
+   private static final String USER = "DB_USER";
+   private static final String PASSWORD = "DB_PASSWORD"; 
+//placeholder data
+   
    public static Connection connect() {
        try {
          Connection conn = DriverManager.getConnection(URL, USER, PASSWORD);
