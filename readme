@@ -1,5 +1,8 @@
 # IT Asset Management System
 
+!!!!!!!!!!!!DISCLAIMER!!!!!!!!!!!!!
+!!FOR EDUCATIONAL PURPOSES ONLY; NOT SUCURED WITH LIVE USE IN MIND!!
+
 A Java-based IT asset management application developed as part of my university studies.
 
 The application provides a graphical interface for managing hardware, software and employee records, while also incorporating system information collection and vulnerability information from the NIST National Vulnerability Database (NVD).
